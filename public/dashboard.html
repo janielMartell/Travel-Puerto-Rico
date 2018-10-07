@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+	<!-- Javascript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js"<\/script>');
+	</script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/CategoryAPI.js"></script>
+	<!-- Javascript ends -->
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/dashboard.css">
+	<link rel="stylesheet" href="css/navbar.css">
+
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w="
+	 crossorigin="anonymous" />
+	<link href='https://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400' rel='stylesheet' type='text/css'>
+	<!-- CSS ends -->
+
+
+
+	<title>Travel Puerto Rico</title>
+
+</head>
+
+<body>
+	<div class="container">
+		<!--Navbar-->
+		<nav class="fill">
+			<ul>
+				<li><a href="#" id="gastronomy">Gastronomy</a></li>
+				<li><a href="#" id="attraction">Attraction</a></li>
+				<li><a href="#" id="accommodation">Accommodation</a></li>
+				<li><a href="#" id="services">Services</a></li>
+				<li><a href="#" id="essentials">Essentials</a></li>
+			</ul>
+		</nav>
+		<br>
+		<br>
+
+		<!--Buttons-->
+		<div class="row">
+			<div class="col">
+				<button type="button" class="btn btn-info">North Area</button>
+			</div>
+			<div class="col">
+				<button type="button" class="btn btn-info">South Area</button>
+			</div>
+			<div class="col">
+				<button type="button" class="btn btn-info">East Area</button>
+			</div>
+			<div class="col">
+				<button type="button" class="btn btn-info">West Area</button>
+			</div>
+			<div class="col">
+				<button type="button" class="btn btn-info">Central Area</button>
+			</div>
+			<div class="col">
+				<button type="button" class="btn btn-info">Vieques & Culebra</button>
+			</div>
+		</div>
+
+		</div>
+		
+	</div>
+	<br>
+	<!--Cards-->
+	<div class="container">
+		<div class="flex my-10">
+			<div class="w-1/3 px-2">
+				<div>
+					<div class="max-w-sm rounded overflow-hidden shadow-lg">
+						<div id="image" class="FixImageCard"></div>
+						<div class="px-6 py-4">
+							<!-- Name -->
+							<div class="font-bold text-xl mb-2" id="name">Piscolabis Mexicanos</div>
+							<p class="text-grey-darker text-base" id="PhoneNumber">
+									(939) 639-3372
+							</p>
+							<p class="text-grey-darker text-base" id="Address">
+									PR-8860, Trujillo Alto
+							</p>
+							<hr>
+							<!--Button-->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+									Read More
+							</button>
+
+							<!--Modal-->
+							<div class="modal" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content">
+
+							<!--Modal Header-->
+							<div class="modal-header">
+								<h4 class="modal-title">Nombre del lugar</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<!--Modal Body-->
+							<!--
+							<div class="modal-body">
+									<img src="img/sass.png" class="img-fluid" alt="Responsive image">
+									<hr>
+									<p>Descripcion del lugar</p>
+							</div>-->
+							
+							<img src="img/sass.png" class="img-fluid"  alt="Responsive Image">
+
+							<!--Modal Footer-->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+
+							</div>
+							</div>
+							</div>	
+						</div>
+						<div class="px-6 py-4">
+							<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#beach</span>
+							<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#travel</span>
+							<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#summer</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="w-1/3 px-2">
+				<div>
+					<div class="max-w-sm rounded overflow-hidden shadow-lg">
+							<div id="image2" class="FixImageCard"></div>
+						<div class="px-6 py-4">
+							<!-- Name 2 -->
+							<div class="font-bold text-xl mb-2" id="name2">CaReKi Bar & Tapas</div>
+							<p class="text-grey-darker text-base" id="PhoneNumber2">
+									(787) 505-0427
+							</p>
+							<p class="text-grey-darker text-base" id="Address2">
+								L74 Calle Celís Aguilera, Caguas
+							</p>
+							<hr>
+							<!--Button-->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+									Read More
+							</button>
+
+							<!--Modal-->
+							<div class="modal" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content">
+
+							<!--Modal Header-->
+							<div class="modal-header">
+								<h4 class="modal-title">Nombre del lugar</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<!--Modal Body-->
+							<img src="img/sass.png" class="img-fluid" alt="Responsive Image">
+
+							<!--Modal Footer-->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+
+							</div>
+							</div>
+							</div>	
+						</div>
+						<div class="px-6 py-4">
+							<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#beach</span>
+							<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#travel</span>
+							<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#summer</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="w-1/3 px-2">
+				<div>
+					<div class="max-w-sm rounded overflow-hidden shadow-lg">
+							<div id="image3" class="FixImageCard"></div>
+						<div class="px-6 py-4">
+							<!-- Name 3 -->
+							<div class="font-bold text-xl mb-2" id="name3">Destino de Prueba</div>
+							<p class="text-grey-darker text-base" id="PhoneNumber3">
+									(787) 773-1100
+							</p>
+							<p class="text-grey-darker text-base" id="Address3">
+									1511 Calle Antonsanti, San Juan
+							</p>
+							<hr>
+							<!--Button-->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+									Read More
+							</button>
+
+							<!--Modal-->
+							<div class="modal" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content">
+
+							<!--Modal Header-->
+							<div class="modal-header">
+								<h4 class="modal-title">Nombre del lugar</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<!--Modal Body-->
+							<img src="img/sass.png" class="img-fluid" alt="Responsive Image">
+
+							<!--Modal Footer-->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+
+							</div>
+							</div>
+							</div>	
+						</div>
+						<div class="px-6 py-4">
+							<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#beach</span>
+							<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#travel</span>
+							<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#summer</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="flex">
+			<div class="w-1/3 px-2">
+				<div>
+					<div class="max-w-sm rounded overflow-hidden shadow-lg">
+							<div id="image4" class="FixImageCard"></div>
+						<div class="px-6 py-4">
+							<!-- Name 4 -->
+							<div class="font-bold text-xl mb-2" id="name4">#CafeteAndo</div>
+							<p class="text-grey-darker text-base" id="PhoneNumber4">
+									(787) 717-3636
+							</p>
+							<p class="text-grey-darker text-base" id="Address4">
+									Carr. 198, Plaza de Recreo Luis Muñoz Rivera, Humacao
+							</p>
+							<hr>
+							<!--Button-->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+									Read More
+							</button>
+
+							<!--Modal-->
+							<div class="modal" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content">
+
+							<!--Modal Header-->
+							<div class="modal-header">
+								<h4 class="modal-title">Nombre del lugar</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<!--Modal Body-->
+							<img src="img/sass.png" class="img-fluid" alt="Responsive Image">
+
+							<!--Modal Footer-->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+
+							</div>
+							</div>
+							</div>	
+						</div>
+						<div class="px-6 py-4">
+							<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#beach</span>
+							<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#travel</span>
+							<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#summer</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="w-1/3 px-2">
+				<div>
+					<div class="max-w-sm rounded overflow-hidden shadow-lg">
+							<div id="image5" class="FixImageCard"></div>
+						<div class="px-6 py-4">
+							<!-- Name 5 -->
+							<div class="font-bold text-xl mb-2" id="name5">1041 Gastronomía de Barrio</div>
+							<p class="text-grey-darker text-base" id="PhoneNumber5">
+									(939) 337-0770
+							</p>
+							<p class="text-grey-darker text-base" id="Address5">
+									954 Av. Juan Ponce de León, Miramar Plaza, Suite 101, San Juan
+							</p>
+							<hr>
+							<!--Button-->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+									Read More
+							</button>
+
+							<!--Modal-->
+							<div class="modal" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content">
+
+							<!--Modal Header-->
+							<div class="modal-header">
+								<h4 class="modal-title">Nombre del lugar</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<!--Modal Body-->
+							<img src="img/sass.png" class="img-fluid" alt="Responsive Image">
+
+							<!--Modal Footer-->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+
+							</div>
+							</div>
+							</div>	
+						</div>
+						<div class="px-6 py-4">
+							<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#beach</span>
+							<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#travel</span>
+							<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#summer</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="w-1/3 px-2">
+				<div>
+					<div class="max-w-sm rounded overflow-hidden shadow-lg">
+							<div id="image6" class="FixImageCard"></div>
+						<div class="px-6 py-4">
+							<!-- Name 6 -->
+							<div class="font-bold text-xl mb-2" id="name6">111 Master Billiards</div>
+							<p class="text-grey-darker text-base" id="PhoneNumber6">
+									(787) 567-0111
+							</p>	
+							<p class="text-grey-darker text-base" id="Address6">
+									PR-111, San Sebastán
+							</p>
+							<hr>
+							<!--Button-->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+									Read More
+							</button>
+
+							<!--Modal-->
+							<div class="modal" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content">
+
+							<!--Modal Header-->
+							<div class="modal-header">
+								<h4 class="modal-title">Nombre del lugar</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<!--Modal Body-->
+							<img src="img/sass.png" class="img-fluid" alt="Responsive Image">
+
+							<!--Modal Footer-->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+
+							</div>
+							</div>
+							</div>	
+						</div>
+						<div class="px-6 py-4">
+							<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#beach</span>
+							<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#travel</span>
+							<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#summer</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

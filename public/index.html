@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/card.css">
+    <!-- Local CSS ends-->
+
+    <!-- Bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Bootstrap framework ends -->
+
+    <!-- Chart.js -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <!-- Chart.js ends -->
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- JQuery ends -->
+
+    <title>Travel Puerto Rico</title>
+  
+  </head>
+  
+  <!-- Body -->
+  <body>
+
+  <!--Button-->
+  <div id="home">
+    <div class="landing-text">
+      <h1>Travel Puerto Rico</h1>
+      <h3>Text</h3>
+      <a href="dashboard.html" class="btn btn-default btn-lg">View App</a>
+    </div>
+  </div>
+  <!--Button ends-->
+
+  <!--First Content-->
+  <div class="padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6"><!--Comparacion del turismo antes durante y despues de maria por meses-->
+          <canvas id="myChart"></canvas>
+          <script>
+            var ctx = document.getElementById('myChart').getContext('2d');
+            var chart = new Chart(ctx, {
+            type: 'line',
+
+            data: {
+            labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+            datasets: [{
+              label: "Best season to travel to Puerto Rico",
+              backgroundColor: 'rgb(75, 139, 254)',
+              borderColor: 'rgb(75, 139, 254)',
+              data: [70, 75, , 30, 40, 50, 60, 70, 80, 90, 100, 95],//fix the Data
+            },
+              ]
+            },
+            options: {}
+            });
+          </script>
+        </div>
+        <div class="col-sm-6 text-center">
+          <h2>Tourism before and after Hurricane Maria</h2>
+          <p class="lead">Informacion de la pagina</p>
+          <p class="lead">Segundo parrafo si es necesarior</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--Informacion de la app-->
+  <div class="padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <h4>Why travel to Puerto Rico</h4>
+          <p>Puerto Rico is a combination of history, diverse culture and heritage. Full of beautifull landscapes, warm people, fascinating attractions and intriguing cities. There is not reason not to visit. 
+              Puerto Rico has one of the richest artistic, cultural and historical heritages of all periods. There are so many cultural things to see in Puerto Rico. You will never have enough time to see everything in one visit. 
+              
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <img src="images/sass.png" class="img-responsive"> <!--Image 1-->
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <h4>Information </h4>
+            <p>De donde nos visitan</p>
+        </div>   
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <img src="images/sass.png" class="img-responsive"> <!--Image 2-->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="fixed">
+  </div>
+  <br><br>
+
+  <!--Card Slider-->
+
+  <!-- North area card -->
+  <div style="display: flex">
+
+    <div class="my-2 mx-auto p-relative bg-white shadow-1 blue-hover" style="width: 360px; overflow: hidden; border-radius: 1px;">
+        <img src="https://images.pexels.com/photos/442559/pexels-photo-442559.jpeg?auto=compress&cs=tinysrgb" alt="Man with backpack"    
+        class="d-block w-full">
+        
+              <div class="px-2 py-2">
+                <p class="mb-0 small font-weight-medium text-uppercase mb-1 text-muted lts-2px">Travel</p>
+                <h1 class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1" style="line-height: 1.25;">North Area</h1>
+                <p class="mb-1">Ejemplos de algunos lugares del api &hellip;</p>
+              </div>
+              <a href="#0" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">Read More</a>
+            </div>
+
+    <!-- South area card -->
+            <div class="my-2 mx-auto p-relative bg-white shadow-1 blue-hover" style="width: 360px; overflow: hidden; border-radius: 1px;">
+        <img src="https://images.pexels.com/photos/442559/pexels-photo-442559.jpeg?auto=compress&cs=tinysrgb" alt="Man with backpack"    
+        class="d-block w-full">
+
+        <div class="px-2 py-2">
+          <p class="mb-0 small font-weight-medium text-uppercase mb-1 text-muted lts-2px">Travel</p>
+            <h1 class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1" style="line-height: 1.25;">South Area</h1>
+            <p class="mb-1">Ejemplos de algunos lugares del api &hellip;</p>
+          </div>
+          <a href="#0" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">Read More</a>
+        </div>
+
+    <!--East area card-->
+    <div class="my-2 mx-auto p-relative bg-white shadow-1 blue-hover" style="width: 360px; overflow: hidden; border-radius: 1px;">
+        <img src="https://images.pexels.com/photos/442559/pexels-photo-442559.jpeg?auto=compress&cs=tinysrgb" alt="Man with backpack"    
+        class="d-block w-full">
+        
+        <div class="px-2 py-2">
+          <p class="mb-0 small font-weight-medium text-uppercase mb-1 text-muted lts-2px">Travel</p>
+          <h1 class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1" style="line-height: 1.25;">East Area</h1>
+          <p class="mb-1">Ejemplos de algunos lugares del api &hellip;</p>
+        </div>
+        <a href="#0" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">Read More</a>
+      </div>
+        
+      </div>
+
+      <div style="display: flex">
+           <!--West area card-->
+    <div class="my-2 mx-auto p-relative bg-white shadow-1 blue-hover" style="width: 360px; overflow: hidden; border-radius: 1px;">
+        <img src="https://images.pexels.com/photos/442559/pexels-photo-442559.jpeg?auto=compress&cs=tinysrgb" alt="Man with backpack"    
+        class="d-block w-full">
+        
+        <div class="px-2 py-2">
+          <p class="mb-0 small font-weight-medium text-uppercase mb-1 text-muted lts-2px">Travel</p>
+          <h1 class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1" style="line-height: 1.25;">West Area</h1>
+          <p class="mb-1">Ejemplos de algunos lugares del api &hellip;</p>
+        </div>
+        <a href="#0" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">Read More</a>
+      </div>
+
+       <!--Central area card-->
+    <div class="my-2 mx-auto p-relative bg-white shadow-1 blue-hover" style="width: 360px; overflow: hidden; border-radius: 1px;">
+        <img src="https://images.pexels.com/photos/442559/pexels-photo-442559.jpeg?auto=compress&cs=tinysrgb" alt="Man with backpack"    
+        class="d-block w-full">
+        
+        <div class="px-2 py-2">
+          <p class="mb-0 small font-weight-medium text-uppercase mb-1 text-muted lts-2px">Travel</p>
+          <h1 class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1" style="line-height: 1.25;">Central Area</h1>
+          <p class="mb-1">Ejemplos de algunos lugares del api &hellip;</p>
+        </div>
+        <a href="#0" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">Read More</a>
+      </div>
+
+          <!--Vieques & Culebra area card-->
+    <div class="my-2 mx-auto p-relative bg-white shadow-1 blue-hover" style="width: 360px; overflow: hidden; border-radius: 1px;">
+        <img src="https://images.pexels.com/photos/442559/pexels-photo-442559.jpeg?auto=compress&cs=tinysrgb" alt="Man with backpack"    
+        class="d-block w-full">
+        
+        <div class="px-2 py-2">
+          <p class="mb-0 small font-weight-medium text-uppercase mb-1 text-muted lts-2px">Travel</p>
+          <h1 class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1" style="line-height: 1.25;">Vieques & Culebra</h1>
+          <p class="mb-1">Ejemplos de algunos lugares del api &hellip;</p>
+        </div>
+        <a href="#0" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">Read More</a>
+      </div>
+      </div>
+      
+        
+        
+        <!--Watson-->
+  <div class="padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <!--Watson-->
+        </div>
+        <div class="col-sm-6">
+          <!--Watson-->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="container-fluid text-center">
+
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Contact Us</h3>
+        <br>
+        <h4>email o forma de contactarnos</h4>
+      </div>
+
+      <div class="col-sm-4">
+        <h3>Connect</h3>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-youtube"></a>
+      </div>
+
+      <div class="col-sm-4">
+        <img src="images/Logo.jpg" class="icon">
+      </div>
+
+    </div>
+
+  </footer>
+
+  </body>
+</html>

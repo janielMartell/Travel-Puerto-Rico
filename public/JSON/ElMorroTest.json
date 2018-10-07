@@ -1,0 +1,177 @@
+[
+    {
+    "amenities": "Security, Trash Cans, Visitor Information Center, Street Parking, Free Parking Lot, View, Transportation",
+    "last_updated": "04/19/2018",
+    "types": "Architecture Site, Castle, Historic, Picture Spot",
+    "characteristics": "Indoors, Outdoors, Family, Groups",
+    "website": "https://www.nps.gov/saju/index.htm",
+    "address": "501 Calle Norzagaray, San Juan",
+    "activity": "Attractions",
+    "city": "San Juan",
+    "latitude": 18.4709349,
+    "description": "<p class=\"MsoNormal\"><p>An esplanade greets you as you walk towards the Fort San  Felipe del Morro. Surrounded by grassy hills, the stone castle rises  majestically from the headland. And while El Morro may be an impressive sight  from land, it is a terrifying experience to encounter it head on by sea. And  for many attackers, it was the very last thing they saw. <\/p>    <p>This fortress has seen many battles over the centuries, from  Sir Francis Drake’s attack in 1595 to the 1898 Bombardment of San Juan by the US  Navy. In 1539 King Charles I ordered the construction of San Felipe del Morro  and other fortifications on the islet of San Juan. Over the years, Spanish, Italian,  Irish and American engineers perfected San Juan’s defense system, of which el  Morro was an essential part.<\/p>    <p>After crossing the stone bridge over the dry moat, you’ll  walk right into a spacious courtyard that harbor leads you into the castle’s  more “domestic” areas, such as the kitchen and the chapel. Nevertheless, this  is just one of the six levels that form el Morro. On the upper level, you'll find the lighthouse that was restored by the American Coast Guard in 1908. One of the greatest things about this vantage point is that you can see most of San Juan and the bay across from it.&nbsp;<\/p><p>Park rangers will guide you throughout the massive fortification,  which still houses original cannons, ammunition, and many other objects used by  the Spanish militia in Puerto Rico.&nbsp;<\/p><p>El Morro was declared a World Heritage Site by UNESCO in 1983, and is currently under the administration of the National Park Service.<br><\/p><p><br><\/p>            <br><o:p><\/o:p><\/p>",
+    "businessStatus": 1,
+    "media":     [
+      "http://portal.viewpr.org/media/5685",
+      "http://portal.viewpr.org/media/16",
+      "http://portal.viewpr.org/media/5356",
+      "http://portal.viewpr.org/media/5355",
+      "http://portal.viewpr.org/media/5360",
+      "http://portal.viewpr.org/media/9918",
+      "http://portal.viewpr.org/media/9919",
+      "http://portal.viewpr.org/media/9920",
+      "http://portal.viewpr.org/media/9921",
+      "http://portal.viewpr.org/media/9922",
+      "http://portal.viewpr.org/media/9923",
+      "http://portal.viewpr.org/media/9924",
+      "http://portal.viewpr.org/media/9925",
+      "http://portal.viewpr.org/media/9926",
+      "http://portal.viewpr.org/media/9927",
+      "http://portal.viewpr.org/media/9928",
+      "http://portal.viewpr.org/media/9929"
+    ],
+    "phone": "(787) 729-6960",
+    "zone": "Metro",
+    "timetables":     [
+            {
+        "close_hour": "1700",
+        "open_day": 0,
+        "close_day": 0,
+        "open_hour": "0900"
+      },
+            {
+        "close_hour": "1700",
+        "open_day": 1,
+        "close_day": 1,
+        "open_hour": "0900"
+      },
+            {
+        "close_hour": "1700",
+        "open_day": 2,
+        "close_day": 2,
+        "open_hour": "0900"
+      },
+            {
+        "close_hour": "1700",
+        "open_day": 3,
+        "close_day": 3,
+        "open_hour": "0900"
+      },
+            {
+        "close_hour": "1700",
+        "open_day": 4,
+        "close_day": 4,
+        "open_hour": "0900"
+      },
+            {
+        "close_hour": "1700",
+        "open_day": 5,
+        "close_day": 5,
+        "open_hour": "0900"
+      },
+            {
+        "close_hour": "1700",
+        "open_day": 6,
+        "close_day": 6,
+        "open_hour": "0900"
+      }
+    ],
+    "name": "Castillo San Felipe del Morro",
+    "id": 24817,
+    "neighborhood": "Old San Juan ",
+    "categories": "Historic Sites and Landmarks",
+    "google_place_id": "ChIJuWLC2b1uA4wRI18mdUpCAGo",
+    "longitude": -66.1235063
+  },
+    {
+    "amenities": "Guides, Restrooms / Toilets",
+    "last_updated": "06/21/2018",
+    "types": "Lighthouse",
+    "characteristics": "Budget, Outdoors, Family, Groups",
+    "website": "http://www.nps.gov",
+    "address": "501 Calle Norzagaray, San Juan",
+    "activity": "Attractions",
+    "city": "San Juan",
+    "latitude": 18.4709349,
+    "description": "<p>Originally built under Spanish rule in 1846, this lighthouse was destined to be part of the illumination of the Northern coast (which started in Las Cabezas de San Juan lighthouse in Fajardo to Los Morillos Lighthouse in Arecibo). After decades of constant exposure to the waves of the Atlantic Ocean, this lighthouse had to be repaired in 1876 and it was given a lantern with a copper dome and an iron tower. Unfortunately, both the lantern and the tower were destroyed during the 1898 bombardment of el Morro by U.S. troops, and had to be rebuilt in 1899.&nbsp;<\/p> <p>Nowadays, you can admire its façade from Castillo San Felipe del Morro and learn more about its history during the guided tours.&nbsp;<\/p><p><br><\/p><p>Reference:&nbsp;<\/p><p><p>https://enciclopediapr.org/encyclopedia/san-juan-faro-del-castillo-del-morro/<\/p><\/p>",
+    "businessStatus": 1,
+    "media":     [
+      "http://portal.viewpr.org/media/9933",
+      "http://portal.viewpr.org/media/9930",
+      "http://portal.viewpr.org/media/9931",
+      "http://portal.viewpr.org/media/9932"
+    ],
+    "phone": "(787) 729-6960",
+    "zone": "Metro",
+    "timetables":     [
+            {
+        "close_hour": "1800",
+        "open_day": 0,
+        "close_day": 0,
+        "open_hour": "0900"
+      },
+            {
+        "close_hour": "1800",
+        "open_day": 1,
+        "close_day": 1,
+        "open_hour": "0900"
+      },
+            {
+        "close_hour": "1800",
+        "open_day": 2,
+        "close_day": 2,
+        "open_hour": "0900"
+      },
+            {
+        "close_hour": "1800",
+        "open_day": 3,
+        "close_day": 3,
+        "open_hour": "0900"
+      },
+            {
+        "close_hour": "1800",
+        "open_day": 4,
+        "close_day": 4,
+        "open_hour": "0900"
+      },
+            {
+        "close_hour": "1800",
+        "open_day": 5,
+        "close_day": 5,
+        "open_hour": "0900"
+      },
+            {
+        "close_hour": "1800",
+        "open_day": 6,
+        "close_day": 6,
+        "open_hour": "0900"
+      }
+    ],
+    "name": "Faro del Castillo del Morro",
+    "id": 24940,
+    "neighborhood": "Old San Juan",
+    "categories": "Historic Sites and Landmarks",
+    "google_place_id": "ChIJuWLC2b1uA4wRI18mdUpCAGo",
+    "longitude": -66.1235063
+  },
+    {
+    "amenities": "Bar, Street Parking, Live Music, Restrooms / Toilets",
+    "last_updated": "05/23/2018",
+    "types": "Beer, Criollo, Pork",
+    "characteristics": "Casual Attire, Family",
+    "website": "https://www.facebook.com/Lechonera-El-Morro-313270352413159/",
+    "address": "Carretera 184, Guavate ",
+    "activity": "Gastronomy",
+    "city": "Cayey",
+    "latitude": 18.14748,
+    "businessStatus": 1,
+    "phone": "(787) 503-8920",
+    "zone": "Central Mountain",
+    "name": "Lechonera El Morro",
+    "id": 36208,
+    "neighborhood": "Guavate ",
+    "categories": "Chinchorro, Restaurant, Bar / Pub",
+    "google_place_id": "0",
+    "longitude": -66.10173
+  }
+]
